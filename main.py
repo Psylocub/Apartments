@@ -42,6 +42,7 @@ def main():
     with db.atomic():
         for row in apartments_information_list:
             Apartments.create(**row)
+    db.close()
 
 
 def rendering_page(ad):
