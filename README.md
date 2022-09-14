@@ -5,7 +5,7 @@ This project collect ads from certain website including pagination and save sepa
 
 Used: Selenium, peewee, PostgreSQL
 ### Instruction
-1. Setup virtual environment according to file *requirements.txt*
+1. Setup virtual environment and dependencies: *pip install requirements.txt*
 2. Create database with follow parameters:
    - name: *apartments*,
    - user: *postgres*,
